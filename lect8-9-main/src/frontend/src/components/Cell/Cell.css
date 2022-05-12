@@ -1,0 +1,12 @@
+.cell{
+    border-radius: 12px;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.cell:hover{
+    background-color: rgb(128, 161, 161);
+    cursor: pointer;
+}

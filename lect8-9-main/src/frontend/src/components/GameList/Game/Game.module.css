@@ -1,0 +1,62 @@
+.game{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    position: relative;
+    min-width: 350px;
+}
+.game>*{
+    text-align: center;
+    margin-top: 15px;
+}
+.game>*:first-child{
+    margin-top: 0px;
+}
+.id{
+    color: yellow;
+}
+.font_size15px15px{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-size: cover;
+}
+.batle{
+    display: flex;
+    justify-content: space-between;
+}
+.batle>*{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.batle>*:nth-child(2n+1){
+min-width:80px;
+
+}
+.winner{
+    color: rgb(0, 255, 0);
+    font-style: italic;
+    text-shadow: 1px 1px 1px #000;
+}
+.loser{
+    color: rgb(227, 44, 44);
+    font-style: italic;
+    text-shadow: 1px 1px 1px #000;
+}
+.user{
+color: white;
+font-style: italic;
+}
+.data_start{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+.flex_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,51 @@
+.modalReg{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+.formContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-radius: 130px 130px 30px 40px;
+    background-color: rgb(238, 229, 218,0.7);
+    padding: 10px 30px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+input{
+    padding: 3px 0px 3px 7px;
+    outline: none;
+    margin: 3px 10px 2px 10px;
+    font-size: 11px;
+}
+.info input:focus{
+    box-sizing: content-box;
+    border-radius: none;
+    outline: 0.5px solid black;
+}
+.cell{
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+h5{
+    font-size: 15px;
+}
+.auth_line{
+    display: flex;
+    align-items: center;
+}
+.unValid{
+    border: 0.5px solid red;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

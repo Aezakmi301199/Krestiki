@@ -1,0 +1,37 @@
+.btn_block {
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #0B63F6;
+    padding: 3px 7px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    min-width: 105px;
+}
+.btn_block>*:first-child{
+    margin-right: 5px;
+}
+.btn_block:hover {
+    background-color: rgb(243, 98, 98);
+    -webkit-transform: rotateZ(5deg);
+    -ms-transform: rotateZ(5deg);
+    transform: rotateZ(5deg);
+}
+.btn_block:active{
+    background-color: red;
+}
+.btn_block:hover .font_size10px10px{
+    display: inline;
+}
+.font_size10px10px{
+    display: none;
+    width: 10px;
+    height: 10px;
+}
+h4{
+    font-size: 10px;
+    font-weight: 500;
+}

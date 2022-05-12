@@ -1,0 +1,30 @@
+
+.mess{
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px 30px;
+        margin: 2px 5px 2px 3px;
+        align-self: flex-start;
+        align-items: center;
+        box-sizing: border-box;
+    }
+.mess>*{
+    margin: 2px;
+    font-size: 12px;
+}
+#fontSize30px{
+    width: 15px;
+    height: 15px;
+}
+#messageSettings{
+    color: red;
+  word-break: break-word;
+  margin-left: 10px;
+  font-size: 12px;
+}
+#login{
+    text-align: center;
+    font-size: 13px;
+    min-width: 90px;
+    color: rgb(52, 0, 197);;
+}

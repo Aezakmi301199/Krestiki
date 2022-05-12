@@ -1,0 +1,53 @@
+.ratingUser{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 105px 100px 100px;
+    margin-top: 10px;
+}
+.ratingUser>*{
+    text-align: center;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.login{
+    font-size: 15px;
+    color: aqua;
+    font-style: oblique;
+    font-weight: 800;
+    text-shadow: 1px 2px  black;
+
+}
+.total{
+    color:yellow;
+   font-weight: 900;
+}
+.wins{
+    color: rgb(64, 255, 0);
+    font-weight: 900;
+ }
+.loses{
+    color:red;
+    font-weight: 900;
+ }
+ .draw{
+    color:blue;
+    font-weight: 900;
+ }
+.great{
+   color: #ff0095;
+}
+.good{
+    color: #7700ff;
+}
+.normal{
+    color: #00ffe1;
+}
+.bad{
+    color: #d0ff00;
+}
+.tupoi{
+    color: #d77d00;
+}
+.white{
+    color: white;
+}

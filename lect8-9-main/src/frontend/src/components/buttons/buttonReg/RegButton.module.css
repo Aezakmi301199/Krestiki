@@ -1,0 +1,26 @@
+.body_button{
+    margin: 0;
+    padding: 0;
+    color: #ddf;
+    text-align: center;
+  }
+  .button_hola{
+    font-size: 10px;
+    position: relative;
+    padding: 0.3em 0.7em;
+    margin: 1em;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 2px;
+  }
+  .button_hola:hover
+  {
+
+    border: 1px solid transparent;
+    color: white;
+    background-color:black ;
+    box-shadow: 0 0 3px 2px rgb(1, 1, 3);
+  }
+   
+   

@@ -1,0 +1,16 @@
+knex migrate:up 20220427045145_createRoles.js
+
+knex seed:run --specific=roles.js
+
+knex migrate:up 20220418212638_createUsers.js
+
+knex seed:run --specific=users.js
+
+knex migrate:up 20220418212912_createGames.js
+
+knex seed:run --specific=games.js
+
+
+knex migrate:up 20220428094846_createMessage.js
+
+knex seed:run --specific=messages.js

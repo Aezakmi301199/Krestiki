@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(0, 0, 0,0.2);
+    width: 100%;
+}
+.navbar>*{
+    text-decoration: 0;
+    color: white;
+    margin: 5px;
+}

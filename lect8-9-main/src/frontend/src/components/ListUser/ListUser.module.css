@@ -1,0 +1,24 @@
+.listUser{
+        margin-top: 20px;
+        padding:10px;
+
+        border-radius: 20px;
+        min-width: 250px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border:1px solid blue;
+        cursor:pointer;
+        background-color: rgb(238, 229, 218,0.7);
+        }
+#h1_custom{
+        font-weight:600;
+        color:rgb(2, 47, 125);
+        font-size:20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+span{
+        color:red
+}

@@ -1,0 +1,13 @@
+.btnReset{
+    border-radius: 10px;
+    font-size: 15px;
+    padding:10px 10px;
+    color:rgb(2, 47, 125);
+    font-weight: 500;
+    border:none;
+    margin: 20px auto;
+}
+.btnReset:hover{
+    border-radius: 7px;
+    color:black;
+}
